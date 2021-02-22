@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb40df94-c567-47a7-8876-fead57ed4ba8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ofhEPMFCCRnXxFyzqc6yqwp52N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.fhg.ipa.null70.simple_influxdb_msb_connector.model" />
+      <recent name="de.fhg.ipa.null70.simple_influxdb_msb_connector" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_Code-Projects\simple_influxdb_msb_connector" />
+      <recent name="C:\_Code-Projects\simple_influxdb_msb_connector-2\src\main\resources" />
+      <recent name="C:\_Code-Projects\simple_influxdb_msb_connector-2\src\main\java\de\fhg\ipa\null70\simple_influxdb_msb_connector" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MainSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.fhg.ipa.null70.simple_influxdb_msb_connector.MainSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="simple_influxdb_msb_connector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb40df94-c567-47a7-8876-fead57ed4ba8" name="Default Changelist" comment="" />
+      <created>1613683439950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613683439950</updated>
+      <workItem from="1613683447159" duration="158000" />
+      <workItem from="1613683637506" duration="170000" />
+      <workItem from="1613683840906" duration="6723000" />
+      <workItem from="1613691066341" duration="18442000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="358" key="#Inspections" timestamp="1613740803311">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="358" key="#Inspections/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613740803311" />
+    <state x="3294" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613683524380">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3294" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613683524380" />
+    <state x="1030" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613738623040">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1030" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613738623040" />
+    <state x="3645" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1613727024323">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613689912784" />
+    <state x="3645" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613727024323" />
+    <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613981883746">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613981883746" />
+    <state x="3234" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613726844729" />
+    <state x="1195" y="453" key="#xdebugger.XInspectDialog" timestamp="1613745333371">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1195" y="453" key="#xdebugger.XInspectDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613745333371" />
+    <state width="449" height="466" key="DebuggerActiveHint" timestamp="1613745251454">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="449" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613745251454" />
+    <state width="2561" height="500" key="GridCell.Tab.0.bottom" timestamp="1613982027882">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027882" />
+    <state width="2561" height="500" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613691133493" />
+    <state width="2561" height="500" key="GridCell.Tab.0.center" timestamp="1613982027881">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027881" />
+    <state width="2561" height="500" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613691133493" />
+    <state width="2561" height="500" key="GridCell.Tab.0.left" timestamp="1613982027881">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027881" />
+    <state width="2561" height="500" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613691133492" />
+    <state width="2561" height="500" key="GridCell.Tab.0.right" timestamp="1613982027882">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027882" />
+    <state width="2561" height="500" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613691133493" />
+    <state width="2561" height="500" key="GridCell.Tab.1.bottom" timestamp="1613982027883">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027883" />
+    <state width="2561" height="408" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613687370441" />
+    <state width="2561" height="500" key="GridCell.Tab.1.center" timestamp="1613982027883">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027883" />
+    <state width="2561" height="408" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613687370441" />
+    <state width="2561" height="500" key="GridCell.Tab.1.left" timestamp="1613982027882">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027882" />
+    <state width="2561" height="408" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613687370441" />
+    <state width="2561" height="500" key="GridCell.Tab.1.right" timestamp="1613982027883">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027883" />
+    <state width="2561" height="408" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613687370441" />
+    <state width="2561" height="500" key="GridCell.Tab.2.bottom" timestamp="1613982027884">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.2.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027884" />
+    <state width="2561" height="500" key="GridCell.Tab.2.center" timestamp="1613982027884">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.2.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027884" />
+    <state width="2561" height="500" key="GridCell.Tab.2.left" timestamp="1613982027883">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.2.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027883" />
+    <state width="2561" height="500" key="GridCell.Tab.2.right" timestamp="1613982027884">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="500" key="GridCell.Tab.2.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613982027884" />
+    <state x="3341" y="342" key="SettingsEditor" timestamp="1613687225576">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3341" y="342" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613687225576" />
+    <state x="3535" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1613683641780">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3535" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1613683641780" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/fhg/ipa/null70/simple_influxdb_msb_connector/msb/MsbFunctions.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/fhg/ipa/null70/simple_influxdb_msb_connector/msb/MsbFunctions.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/fhg/ipa/null70/simple_influxdb_msb_connector/msb/MsbFunctions.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

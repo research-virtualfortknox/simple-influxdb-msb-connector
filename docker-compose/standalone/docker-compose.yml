@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+  simple-kafka-msb-connector:
+          image: arthurgrigo/simple-influxdb-msb-connector:0.0.1-SNAPSHOT
+          restart: always
+          hostname: simple-influxdb-msb-connector
+          container_name: simple-influxdb-msb-connector
+          env_file:
+            - env.list
+          logging:
+            driver: "json-file"
+            options:
+              max-size: "10m"
+              max-file: "3"
+
