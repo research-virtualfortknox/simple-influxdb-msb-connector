@@ -1,5 +1,4 @@
 # A simple MSB to Apache Kafka Connector 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fresearch-virtualfortknox%2Fsimple-kafka-msb-connector.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fresearch-virtualfortknox%2Fsimple-kafka-msb-connector?ref=badge_shield)
 
 This application writes MSB events into InfluxDB.
 
