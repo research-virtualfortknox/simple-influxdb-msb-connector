@@ -1,4 +1,6 @@
 # A simple MSB to Apache Kafka Connector 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fresearch-virtualfortknox%2Fsimple-influxdb-msb-connector.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fresearch-virtualfortknox%2Fsimple-influxdb-msb-connector?ref=badge_shield)
+
 
 This application writes MSB events into InfluxDB.
 
@@ -53,3 +55,6 @@ This application writes MSB events into InfluxDB.
 * Edit [env.list](docker-compose/standalone/env.list) to your needs 
 
 * Run: `docker-compose up -d`
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fresearch-virtualfortknox%2Fsimple-influxdb-msb-connector.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fresearch-virtualfortknox%2Fsimple-influxdb-msb-connector?ref=badge_large)
