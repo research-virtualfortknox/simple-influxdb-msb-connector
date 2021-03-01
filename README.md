@@ -1,4 +1,4 @@
-# A simple MSB to Apache Kafka Connector 
+# A simple MSB to InfluxDB Connector 
 
 This application writes MSB events into InfluxDB.
 
@@ -7,7 +7,7 @@ This application writes MSB events into InfluxDB.
 #### Prerequisites
 * Java 8 or higher
 
-#### Configuration
+#### Configuration (Adapt to your needs)
 
 * Edit the application.properties-file
 
@@ -36,12 +36,14 @@ This application writes MSB events into InfluxDB.
 
 * Open a bash or CMD in the same directory as the .jar
 
-* Run: `java -jar simple_influxdb_msb_connector-1.0.0-SNAPSHOT.jar.jar`
+* Run: `java -jar simple_influxdb_msb_connector-1.0.0-SNAPSHOT.jar`
 
 
 ## Docker
 
-* Docker Hub https://hub.docker.com/r/arthurgrigo/simple-influxdb-msb-connector
+Docker Hub 
+
+https://hub.docker.com/r/arthurgrigo/simple-influxdb-msb-connector
 
 
 ## Usage with Docker-Compose
