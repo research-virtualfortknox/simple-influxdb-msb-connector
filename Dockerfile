@@ -1,4 +1,4 @@
-FROM openjdk:8u181-jdk-slim
+FROM openjdk:8-jdk-slim
 
 ENV SERVER_INSTALL_FOLDER=/app/influxdb-msb-connector/
 ENV JAR_FILE_NAME=simple_influxdb_msb_connector-1.0.0-SNAPSHOT.jar
