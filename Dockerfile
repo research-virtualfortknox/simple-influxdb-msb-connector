@@ -1,7 +1,7 @@
 FROM openjdk:8u181-jdk-slim
 
 ENV SERVER_INSTALL_FOLDER=/app/influxdb-msb-connector/
-ENV JAR_FILE_NAME=simple_influxdb_msb_connector-1.0.0-SNAPSHOT.jar
+ENV JAR_FILE_NAME=simple_influxdb_msb_connector-1.1.0-SNAPSHOT.jar
 
 # Application propertis
 ENV INFLUXDB_SERVER_URL=http://localhost:8089
