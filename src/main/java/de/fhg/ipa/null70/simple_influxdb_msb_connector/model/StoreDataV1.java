@@ -13,17 +13,19 @@ public class StoreDataV1 {
     private Field[] fields = {};
     private Tag[] tags = {};
     private Boolean sendConfirmation = true;
+    private Boolean parseValuesToFloat = true;
 
     public StoreDataV1() {
     }
 
-    public StoreDataV1(String database, String measurement, Date timestamp, Field[] fields, Tag[] tags, Boolean sendConfirmation) {
+    public StoreDataV1(String database, String measurement, Date timestamp, Field[] fields, Tag[] tags, Boolean sendConfirmation, Boolean parseValuesToFloat) {
         this.database = database;
         this.measurement = measurement;
         this.timestamp = timestamp;
         this.fields = fields;
         this.tags = tags;
         this.sendConfirmation = sendConfirmation;
+        this.parseValuesToFloat = parseValuesToFloat;
     }
 
     public String getDatabase() {
@@ -72,5 +74,13 @@ public class StoreDataV1 {
 
     public void setSendConfirmation(Boolean sendConfirmation) {
         this.sendConfirmation = sendConfirmation;
+    }
+
+    public Boolean getParseValuesToFloat() {
+        return parseValuesToFloat;
+    }
+
+    public void setParseValuesToFloat(Boolean parseValuesToFloat) {
+        this.parseValuesToFloat = parseValuesToFloat;
     }
 }

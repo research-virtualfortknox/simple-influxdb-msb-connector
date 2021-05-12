@@ -15,11 +15,12 @@ public class StoreDataV2 {
     private String[] tagKeys = {};
     private String[] tagValues = {};
     private Boolean sendConfirmation = true;
+    private Boolean parseValuesToFloat = true;
 
     public StoreDataV2() {
     }
 
-    public StoreDataV2(String database, String measurement, Date timestamp, String[] fieldKeys, String[] fieldValues, String[] tagKeys, String[] tagValues, Boolean sendConfirmation) {
+    public StoreDataV2(String database, String measurement, Date timestamp, String[] fieldKeys, String[] fieldValues, String[] tagKeys, String[] tagValues, Boolean sendConfirmation, Boolean parseValuesToFloat) {
         this.database = database;
         this.measurement = measurement;
         this.timestamp = timestamp;
@@ -28,6 +29,7 @@ public class StoreDataV2 {
         this.tagKeys = tagKeys;
         this.tagValues = tagValues;
         this.sendConfirmation = sendConfirmation;
+        this.parseValuesToFloat = parseValuesToFloat;
     }
 
     public String getDatabase() {
@@ -92,5 +94,13 @@ public class StoreDataV2 {
 
     public void setSendConfirmation(Boolean sendConfirmation) {
         this.sendConfirmation = sendConfirmation;
+    }
+
+    public Boolean getParseValuesToFloat() {
+        return parseValuesToFloat;
+    }
+
+    public void setParseValuesToFloat(Boolean parseValuesToFloat) {
+        this.parseValuesToFloat = parseValuesToFloat;
     }
 }
