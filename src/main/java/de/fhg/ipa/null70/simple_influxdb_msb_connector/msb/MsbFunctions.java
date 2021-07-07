@@ -66,7 +66,14 @@ public class MsbFunctions {
                 pb.tag(storeDataV1.getTags()[i].getKey(), storeDataV1.getTags()[i].getValue());
             }
             for(int i = 0; i < storeDataV1.getFields().length; i++){
-                pb.addField(storeDataV1.getFields()[i].getKey(), storeDataV1.getFields()[i].getValue());
+
+                String key = storeDataV1.getFields()[i].getKey();
+                String val = storeDataV1.getFields()[i].getValue();
+                if(storeDataV1.getParseValuesToFloat()){
+                    pb.addField(key, Float.parseFloat(val));
+                }else{
+                    pb.addField(key, val);
+                }
             }
 
             simpleInfluxDbMsbConnector.influxDBClient.write(pb.build());
@@ -96,6 +103,7 @@ public class MsbFunctions {
         storeDataV1.setMeasurement(storeDataV2.getMeasurement());
         storeDataV1.setTimestamp(storeDataV2.getTimestamp());
         storeDataV1.setSendConfirmation(storeDataV2.getSendConfirmation());
+        storeDataV1.setParseValuesToFloat(storeDataV2.getParseValuesToFloat());
 
         try{
             ArrayList<Field> fields = new ArrayList<>();
@@ -129,6 +137,7 @@ public class MsbFunctions {
         storeDataV1.setTimestamp(storeDataSimple.getTimestamp());
         storeDataV1.setSendConfirmation(storeDataSimple.getSendConfirmation());
         storeDataV1.setFields(new Field[]{new Field(storeDataSimple.getFieldName(), storeDataSimple.getFieldValue())});
+        storeDataV1.setParseValuesToFloat(storeDataSimple.getParseValuesToFloat());
 
         MultipleResponseEvent mre = storeDataV1(storeDataV1);
         return mre;
