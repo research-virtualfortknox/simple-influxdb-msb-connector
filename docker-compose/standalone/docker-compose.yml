@@ -3,7 +3,7 @@ version: '2'
 services:
 
   simple-kafka-msb-connector:
-          image: arthurgrigo/simple-influxdb-msb-connector:1.1.0-SNAPSHOT
+          image: arthurgrigo/simple-influxdb-msb-connector:1.2.0-SNAPSHOT
           restart: always
           hostname: simple-influxdb-msb-connector
           container_name: simple-influxdb-msb-connector

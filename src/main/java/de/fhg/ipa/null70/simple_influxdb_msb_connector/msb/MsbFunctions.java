@@ -36,7 +36,7 @@ public class MsbFunctions {
 
     private final Logger LOG = LoggerFactory.getLogger(MsbFunctions.class);
 
-    @FunctionCall(path = "/storeDataV1", name = "Store Data V1", description = "Inserts data into influxdb. Fields are objects with key and value.", responseEvents = {MsbEvents.RESPONSE_EVENT})
+    @FunctionCall(path = "/storeDataV1", name = "Store Data V1", description = "Inserts data into InfluxDb. Fields are objects with key and value.", responseEvents = {MsbEvents.RESPONSE_EVENT})
     public MultipleResponseEvent storeDataV1(@FunctionParam(name = "StoreDataV1") StoreDataV1 storeDataV1) {
         LOG.info("MSB called /storeDataV1 : " + storeDataV1);
 
@@ -48,25 +48,29 @@ public class MsbFunctions {
             simpleInfluxDbMsbConnector.influxDBClient.setDatabase(storeDataV1.getDatabase());
             Point.Builder pb = Point.measurement(storeDataV1.getMeasurement());
 
+            // Set the timestamp of this data point if 'influxdbUseSourceTimestamp' was set to false..
             if(influxdbUseSourceTimestamp){
-
                 if(storeDataV1.getTimestamp() != null){
+                    // Take timestamp from source
                     pb.time(storeDataV1.getTimestamp().getTime()
                         , TimeUnit.MILLISECONDS);
                 }else{
                     LOG.warn("storeData.timestamp was null and therefore was not considered...");
                 }
             }else{
+                // Take current timestamp
                 pb.time(
                         System.currentTimeMillis(),
                         TimeUnit.MILLISECONDS);
             }
 
+            // Add all tags..
             for(int i = 0; i < storeDataV1.getTags().length; i++){
                 pb.tag(storeDataV1.getTags()[i].getKey(), storeDataV1.getTags()[i].getValue());
             }
-            for(int i = 0; i < storeDataV1.getFields().length; i++){
 
+            // Add all fields..
+            for(int i = 0; i < storeDataV1.getFields().length; i++){
                 String key = storeDataV1.getFields()[i].getKey();
                 String val = storeDataV1.getFields()[i].getValue();
                 if(storeDataV1.getParseValuesToFloat()){
@@ -76,6 +80,7 @@ public class MsbFunctions {
                 }
             }
 
+            // Write to InfluxDb..
             simpleInfluxDbMsbConnector.influxDBClient.write(pb.build());
 
         }catch(Exception e){
@@ -96,7 +101,7 @@ public class MsbFunctions {
         return multipleResponseEvent;
     }
 
-    @FunctionCall(path = "/storeDataV2", name = "Store Data V2", description = "Inserts data into influxdb. Fields are defined by two string[]. fieldKeys and fieldValues..", responseEvents = {MsbEvents.RESPONSE_EVENT})
+    @FunctionCall(path = "/storeDataV2", name = "Store Data V2", description = "Inserts data into InfluxDb. Fields are defined by two string[]. fieldKeys and fieldValues..", responseEvents = {MsbEvents.RESPONSE_EVENT})
     public MultipleResponseEvent storeDataV2(@FunctionParam(name = "StoreDataV2") StoreDataV2 storeDataV2) {
         StoreDataV1 storeDataV1 = new StoreDataV1();
         storeDataV1.setDatabase(storeDataV2.getDatabase());
@@ -129,7 +134,7 @@ public class MsbFunctions {
         return mre;
     }
 
-    @FunctionCall(path = "/storeDataSimple", name = "Store Data Simple", description = "Inserts data into influxdb", responseEvents = {MsbEvents.RESPONSE_EVENT})
+    @FunctionCall(path = "/storeDataSimple", name = "Store Data Simple", description = "Inserts data into InfluxDb", responseEvents = {MsbEvents.RESPONSE_EVENT})
     public MultipleResponseEvent storeDataSimple(@FunctionParam(name = "StoreDataSimple") StoreDataSimple storeDataSimple) {
         StoreDataV1 storeDataV1 = new StoreDataV1();
         storeDataV1.setDatabase(storeDataSimple.getDatabase());

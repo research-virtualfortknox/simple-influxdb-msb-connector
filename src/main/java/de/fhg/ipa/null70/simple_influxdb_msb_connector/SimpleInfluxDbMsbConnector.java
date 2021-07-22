@@ -71,7 +71,7 @@ public class SimpleInfluxDbMsbConnector {
         LOG.info("----------------------------------------");
 
 
-        // Init and start kafka producer
+        // Init and start InfluxDb client
         influxDBClient = initInfluxDbClient(influxdbServer_url, influxdbUser, influxdbPassword);
     }
 
